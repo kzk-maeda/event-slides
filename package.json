@@ -1,0 +1,24 @@
+{
+  "name": "event-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "marp -I . -o dist && cpx 'images/**' dist/images"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzk-maeda/event-slides.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kzk-maeda/event-slides/issues"
+  },
+  "homepage": "https://github.com/kzk-maeda/event-slides#readme",
+  "dependencies": {
+    "@marp-team/marp-cli": "^1.5.2",
+    "cpx": "^1.5.0"
+  }
+}
