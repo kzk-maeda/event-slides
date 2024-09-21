@@ -1,1 +1,6 @@
 mecab-python3
+# transformers
+# torch
+matplotlib
+japanize-matplotlib
+networkx
