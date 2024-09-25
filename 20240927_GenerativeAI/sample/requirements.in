@@ -4,3 +4,7 @@ mecab-python3
 matplotlib
 japanize-matplotlib
 networkx
+pandas
+numpy
+seaborn
+wordcloud

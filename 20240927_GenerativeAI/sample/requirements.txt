@@ -18,21 +18,43 @@ matplotlib==3.9.2
     # via
     #   -r requirements.in
     #   japanize-matplotlib
+    #   seaborn
+    #   wordcloud
 mecab-python3==1.0.9
     # via -r requirements.in
 networkx==3.3
     # via -r requirements.in
 numpy==2.1.1
     # via
+    #   -r requirements.in
     #   contourpy
     #   matplotlib
+    #   pandas
+    #   seaborn
+    #   wordcloud
 packaging==24.1
     # via matplotlib
+pandas==2.2.3
+    # via
+    #   -r requirements.in
+    #   seaborn
 pillow==10.4.0
-    # via matplotlib
+    # via
+    #   matplotlib
+    #   wordcloud
 pyparsing==3.1.4
     # via matplotlib
 python-dateutil==2.9.0.post0
-    # via matplotlib
+    # via
+    #   matplotlib
+    #   pandas
+pytz==2024.2
+    # via pandas
+seaborn==0.13.2
+    # via -r requirements.in
 six==1.16.0
     # via python-dateutil
+tzdata==2024.2
+    # via pandas
+wordcloud==1.9.3
+    # via -r requirements.in
