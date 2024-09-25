@@ -8,6 +8,9 @@ from matplotlib import font_manager
 font_manager.fontManager.addfont("./ipaexg.ttf")
 matplotlib.rc('font', family="IPAexGothic")
 
+# 最初の主語の候補と確率
+initial_subjects = [("私は", 0.5), ("猫が", 0.3), ("犬が", 0.2)]
+
 # 主語、述語、目的語のペアと遷移確率
 subject_to_predicate = {
     "私は": [("猫が", 0.5), ("犬が", 0.5)],
@@ -30,9 +33,6 @@ object_to_end = {
     "取った": [("。", 1.0)],
     "見つけた": [("。", 1.0)]
 }
-
-# 最初の主語の候補と確率
-initial_subjects = [("私は", 0.5), ("猫が", 0.3), ("犬が", 0.2)]
 
 # グラフを作成
 G = nx.DiGraph()
