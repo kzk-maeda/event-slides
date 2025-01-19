@@ -31,7 +31,7 @@ class: lead
 - データや機械学習、生成AIに関する開発
 
 
----
+<!-- ---
 
 # 今日の進め方
 
@@ -39,7 +39,7 @@ class: lead
 - 質問や感想は sli.do というツールからいただければ、適宜回答していきます
   - https://app.sli.do/event/iqnwusuPFhfX9Yzksg5ZVD
 
-![bg right:28% 100%](images/slido.png)
+![bg right:28% 100%](images/slido.png) -->
 
 
 ---
@@ -49,7 +49,7 @@ class: lead
 ---
 
 # クイズ 
-<!-- https://vdata.nikkei.com/newsgraphics/ai-art/ -->
+引用：https://vdata.nikkei.com/newsgraphics/ai-art/
 
 ---
 
@@ -63,7 +63,7 @@ class: lead
 
 ![bg](images/quiz01.png)
 
----
+--- 
 
 # 触ってみよう
 
@@ -84,9 +84,19 @@ class: lead
 
 ---
 
-### 例
+<!-- ### 例
 
 ![bg right:60% 100%](images/example.png)
+
+--- -->
+
+### 作成された記事を対話で進化させよう
+
+```
+- もっと〇〇〇なストーリーにしてください
+- 登場人物に〇〇〇な人を追加してください
+- 〇〇〇で続きを書いてください
+```
 
 ---
 
@@ -150,6 +160,7 @@ AIアートやキャラクターデザインの制作。
 ### メルカリAIアシスト
 - メルカリの利用シーンにおいてAIが支援
 - 商品が売れるよう出品者に改善提案を行う機能
+- 引用：[メルカリAIアシスト](https://about.mercari.com/press/news/articles/20231017_mercariaiassist/)
 
 ---
 ## マクドナルド
@@ -158,6 +169,7 @@ AIアートやキャラクターデザインの制作。
 ### プロモーション動画の生成
 - 生成AIを用いて制作したプロモーション動画をXで公開
 - 一部で批判的な反応も
+- 引用：[マクドナルドが作ったAI広告動画](https://news.yahoo.co.jp/articles/0a8781838716bb62d18f9c56e8695cfcd2c86a32)
 
 ---
 ## コカコーラ
@@ -166,6 +178,7 @@ AIアートやキャラクターデザインの制作。
 ### Create Real Magic
 - 生成AIを用いて自分だけのクリスマスカードを制作
 - 消費者参加型広告に生成AIによるオリジナリティを組み合わせた事例
+- 引用：[Create Real Magic](https://www.createrealmagic.com/)
 
 ---
 ## 教育分野での活用事例
@@ -178,6 +191,7 @@ AIアートやキャラクターデザインの制作。
 
 - 英会話レッスン後の復習を効率化するサービス
 - 他にもAIが自動採点を行うスピーキングテストサービスなども提供
+- 引用：[AIレッスンレポートβ](https://www.rarejob.com/lab/ai-lesson-report/)
 
 
 ---
@@ -186,11 +200,12 @@ AIアートやキャラクターデザインの制作。
 
 ### 自由研究おたすけAI
 - 小学生向けに自由研究のテーマ選定や子供達の疑問に対するアドバイスを提供
+- 引用：[自由研究おたすけAI β版 ](https://benesse.jp/kyouiku/202308/20230815-2.html)
 
----
+<!-- ---
 ## atama plus
 
-### 桃太郎 / AIステップ解説（β）
+### 桃太郎 / AIステップ解説（β） -->
 
 ---
 ## より発展的な生成AIの活用事例
@@ -203,6 +218,7 @@ AIアートやキャラクターデザインの制作。
 ### NVIDIA BioNeMo
 - タンパク質構造予測やタンパク質配列生成を可能とする生成AI
 - 創薬にかかる研究開発スピードの短縮を狙う
+- 引用：[NVIDIA BioNeMo](https://blogs.nvidia.co.jp/2024/03/25/bionemo-ai-drug-discovery-foundation-models-microservices/)
 
 ---
 ## 自動運転業界
@@ -211,6 +227,7 @@ AIアートやキャラクターデザインの制作。
 ### Turing Heron
 - 完全自動運転に向けた柔軟な状況判断を生成AIで実現しようとしている
 - 複雑な現実世界を理解し、人間のように考えて判断することを目指す
+- 引用：[Turing Heron](https://tur.ing/posts/n7UT9tmK)
 
 ---
 
@@ -470,6 +487,7 @@ table {
 - OpenAI社は、ChatGPTで行われた会話データは、自社の言語モデルの再学習に利用するポリシーとしている
 - 学習への利用を望まない場合、自身で学習させない設定をする必要がある
 - Anthropicなど、ユーザーのデータをモデルの学習に再利用しないポリシーの会社もあるので、利用しているサービスのポリシーを理解しておくことが大事
+- [OpenAI 利用規約](https://openai.com/ja-JP/policies/terms-of-use/)
 
 ---
 ## プライバシーの問題：事例
@@ -508,6 +526,7 @@ table {
 - 履歴書審査において、Amazonにより適した人を選別する際にAIを用いた審査を実施
 - この時、過去にAmazon（特に開発職において）では男性を採用することが多かったことから、AIが女性に対して不利な判定を行っていたことが判明した
 - 現在はAIを用いた審査は実施されていない
+- [アマゾンがＡＩ採用打ち切り(2018)](https://jp.reuters.com/article/amazon-jobs-ai-analysis-idJPKCN1ML0DN/)
 
 ---
 ## 本人の証明の難しさ
@@ -553,3 +572,10 @@ table {
 
 ---
 # ありがとうございました
+
+---
+# 参考文献
+
+- [大規模言語モデルは新たな知能か (岩波科学ライブラリー)](https://www.iwanami.co.jp/book/b625941.html)
+- [AI白書 2023 (AI白書編集委員会)](https://www.amazon.co.jp/AI%E7%99%BD%E6%9B%B8-2023-AI%E7%99%BD%E6%9B%B8%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/404911142X)
+- [大規模言語モデル入門 (技術評論社)](https://amzn.asia/d/blzus4V)
