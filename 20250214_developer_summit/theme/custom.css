@@ -1,0 +1,96 @@
+/* @theme custom */
+
+@import 'default';
+
+/* Google Fonts の読み込み */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+
+/* スライド全体のスタイル */
+section {
+font-family: 'Nunito Sans', sans-serif;
+color: #333;
+font-size: 24px;
+line-height: 1.5;
+padding: 40px;
+/* uncover テーマは背景画像・色などがデフォルトだと未設定なのでカスタム */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+position: relative; /* ::beforeでの装飾のため */
+}
+
+/* 箇条書きの左右余白を調整 */
+ul, ol {
+margin-left: auto;  /* 自動で左右中央寄せに寄与 */
+margin-right: auto;
+padding-left: 1.5rem; /* 箇条書きが読みにくくならない程度に左パディング */
+padding-right: 1.5rem; /* 右側にも同程度のパディングを付与 */
+max-width: 80%;       /* 必要に応じてリストの最大幅を制限（お好みで） */
+}
+
+li {
+margin-bottom: 0.5em; /* 箇条書き同士の間隔 */
+}
+
+/* 見出しのスタイル */
+h1, h2, h3 {
+text-align: center;
+color: #2c3e50;
+margin-bottom: 0.5em;
+line-height: 1.2;
+}
+h1 {
+font-weight: 700;
+font-size: 2em;
+}
+h2 {
+font-weight: 600;
+font-size: 1.75em;
+}
+h3 {
+font-weight: 600;
+font-size: 1.5em;
+}
+
+/* 段落・リスト */
+p {
+margin-bottom: 1em;
+}
+ul {
+margin-bottom: 1em;
+list-style-type: disc;
+margin-left: 1.5em;
+}
+li {
+margin-bottom: 0.5em;
+}
+
+/* 引用ブロック */
+blockquote {
+margin: 1em auto;
+border-left: 4px solid #8e44ad;
+padding-left: 1em;
+color: #7f8c8d;
+font-style: italic;
+}
+
+/* コードブロックやインラインコード */
+code {
+background: #f5f5f5;
+color: #c0392b;
+padding: 0.2em 0.4em;
+border-radius: 4px;
+}
+pre code {
+display: block;
+padding: 1em;
+}
+
+/* 背景に薄いグラデーションを重ねる */
+section::before {
+content: "";
+position: absolute;
+top: 0; left: 0; right: 0; bottom: 0;
+z-index: -1;
+background: linear-gradient(135deg, rgba(255,255,255,0) 0%, rgba(52,152,219,0.1) 100%);
+}
