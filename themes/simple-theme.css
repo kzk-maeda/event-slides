@@ -1,0 +1,185 @@
+/* @theme simple-theme */
+
+/* Exact theme name matters for Marp in VS Code */
+@import 'default';
+
+section {
+  font-size: 2em;
+  padding: 40px;
+  background-color: #fff;
+  color: #333;
+  position: relative;
+}
+
+h1 {
+  color: #0066cc;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  height: 1.5em;
+}
+
+/* Adjust content position to avoid overlapping with the fixed heading */
+section > *:not(h1):not(footer):not([data-marpit-advanced-background="background"]) {
+  margin-top: 2.5em;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  margin-top: 0.5em;
+  font-size: 1.6em;
+}
+
+li {
+  margin-bottom: 0.5em;
+  font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+code {
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+table {
+  font-size: 0.9em;
+}
+
+footer {
+  font-size: 0.6em;
+}
+
+/* Special slide styles */
+section.title h1 {
+  font-size: 2.4em;
+  text-align: center;
+  margin-top: 1em;
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  height: auto;
+}
+
+section.title h2 {
+  text-align: center;
+  border: none;
+  font-size: 1.6em;
+  color: #555;
+  margin-top: 0.5em;
+}
+
+section.agenda ul {
+  font-size: 1.2em;
+  margin-top: 2em;
+  list-style-type: none;
+}
+
+section.agenda li {
+  margin-bottom: 1em;
+  padding-left: 1em;
+  border-left: 4px solid #0066cc;
+  transition: all 0.3s ease;
+} 
+
+/* Allow agenda slides to use normal layout */
+section.agenda > *:not(h1):not(footer):not([data-marpit-advanced-background="background"]) {
+  margin-top: 0;
+}
+
+section.agenda h1 {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+/* Improved agenda highlighting styles */
+section.agenda .dimmed {
+  opacity: 0.35;
+  color: #999;
+  font-weight: normal;
+}
+
+section.agenda .current {
+  opacity: 1;
+  font-weight: bold;
+  color: #0066cc;
+  transform: scale(1.03);
+}
+
+section.agenda li:has(.current) {
+  border-left-color: #0066cc;
+  border-left-width: 5px;
+}
+
+section.agenda li:has(.dimmed) {
+  border-left-color: #ccc;
+} 
+
+:root {
+  --fw: 1;
+}
+/* ----- レイアウト ----- */
+.flex{
+  display: flex;
+  gap: 1em;
+}
+.sa {
+  justify-content: space-around;
+  /* border: 8px dashed rgb(15, 166, 226);
+  background-color: rgb(222, 244, 255); */
+}
+.sb {
+  justify-content: space-between;
+  /* border: 8px dashed rgb(21, 17, 255);
+  background-color: rgb(222, 244, 255); */
+}
+.sa div,.sb div{
+  margin: 0.1em;
+  /* border: 8px dashed rgb(80, 177, 109);
+  background-color: rgb(227, 250, 237); */
+}
+.fw div{
+  flex: var(--fw);
+  /* background-color: rgb(244, 238, 255);
+  border: 8px dashed rgb(93, 0, 255); */
+}/* ---------- */
+
+
+/* Reference link styles */
+.reference {
+  font-size: 0.7em;
+  color: #666;
+  margin-top: 1.5em;
+  padding-top: 0.5em;
+  border-top: 1px dotted #ccc;
+}
+
+.reference a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.reference a:hover {
+  text-decoration: underline;
+  color: #004c99;
+}
+
+.reference-marker {
+  font-size: 0.7em;
+  vertical-align: super;
+  color: #0066cc;
+}
