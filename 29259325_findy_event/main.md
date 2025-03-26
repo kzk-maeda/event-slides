@@ -18,7 +18,8 @@ footer: "モノリスの認知負荷に立ち向かう、コードの所有者�
 
 - 前田 和樹（kzk_maeda）
 - atama plus株式会社 VPoE / 技術フェロー
-- データや機械学習、生成AIに関する開発
+  - データや機械学習、生成AIに関する開発
+- AWS Community Builder / AWS Startup Community Core Member
 ---
 
 <!-- _class: agenda -->
