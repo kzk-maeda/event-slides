@@ -18,7 +18,8 @@ footer: "モノリスの認知負荷に立ち向かう、コードの所有者�
 
 - 前田 和樹（kzk_maeda）
 - atama plus株式会社 VPoE / 技術フェロー
-- データや機械学習、生成AIに関する開発
+  - データや機械学習、生成AIに関する開発
+- AWS Community Builder / AWS Startup Community Core Member
 ---
 
 <!-- _class: agenda -->
@@ -54,7 +55,8 @@ footer: "モノリスの認知負荷に立ち向かう、コードの所有者�
 # 背景：スタートアップの成長
 
 - 事業成長に伴い、機能・エンジニアが増加
-- 一方、コードベースはモノリスアーキテクチャを維持
+- 一方、コードベースはモノリシックアーキテクチャを維持
+  - 単純なモノリスではなく、モジュラーモノリスを志向した成長
   - 分割するコストと時間の制約
   - ビジネス成長スピードの優先
 
@@ -362,7 +364,7 @@ https://blog.container-solutions.com/why-im-no-longer-talking-to-architects-abou
 <br>
 
 ### **複雑性が高い**
-   - Complicated Sub-Systemの要素が強いコード
+   - Complicated Subsystemの要素が強いコード
    - 特殊な知識を要するケースが多いため、
      安定したチームで所有し、知識醸成を狙う
 
