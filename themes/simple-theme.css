@@ -12,7 +12,7 @@ section {
 }
 
 h1 {
-  color: #0066cc;
+  color: #0095aa;
   font-size: 2em;
   margin-bottom: 0.5em;
   position: absolute;
@@ -87,7 +87,7 @@ section.agenda ul {
 section.agenda li {
   margin-bottom: 1em;
   padding-left: 1em;
-  border-left: 4px solid #0066cc;
+  border-left: 4px solid #0095aa;
   transition: all 0.3s ease;
 } 
 
@@ -115,12 +115,12 @@ section.agenda .dimmed {
 section.agenda .current {
   opacity: 1;
   font-weight: bold;
-  color: #0066cc;
+  color: #0095aa;
   transform: scale(1.03);
 }
 
 section.agenda li:has(.current) {
-  border-left-color: #0066cc;
+  border-left-color: #0095aa;
   border-left-width: 5px;
 }
 
@@ -168,7 +168,7 @@ section.agenda li:has(.dimmed) {
 }
 
 .reference a {
-  color: #0066cc;
+  color: #0095aa;
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -181,5 +181,84 @@ section.agenda li:has(.dimmed) {
 .reference-marker {
   font-size: 0.7em;
   vertical-align: super;
-  color: #0066cc;
+  color: #0095aa;
+}
+
+/* Source citation styles */
+.source-citation {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  font-size: 0.5em;
+  color: #666;
+  max-width: 80%;
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 4px 8px;
+  border-radius: 4px;
+  z-index: 10;
+}
+
+.source-citation a {
+  color: #0095aa;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.source-citation a:hover {
+  text-decoration: underline;
+}
+
+/* For darker background images */
+.source-citation-light {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #eee;
+}
+
+.source-citation-light a {
+  color: #99ccff;
+}
+
+/* Teal background with white text */
+section.teal-bg {
+  background-color: #0095aa;
+  color: white;
+}
+
+section.teal-bg h1 {
+  color: white;
+  border-bottom-color: rgba(255, 255, 255, 0.4);
+}
+
+section.teal-bg h2,
+section.teal-bg h3,
+section.teal-bg h4,
+section.teal-bg h5,
+section.teal-bg h6 {
+  color: white;
+  border-bottom-color: rgba(255, 255, 255, 0.4);
+}
+
+section.teal-bg a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+section.teal-bg code {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+section.teal-bg ul li::marker,
+section.teal-bg ol li::marker {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section.teal-bg .source-citation {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+section.teal-bg .source-citation a {
+  color: white;
 }
