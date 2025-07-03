@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kzk-maeda/event-slides#readme",
   "dependencies": {
     "@marp-team/marp-cli": "^1.5.2",
+    "@slidev/theme-seriph": "^0.25.0",
     "cpx": "^1.5.0"
   }
 }
