@@ -118,7 +118,7 @@ Source: <a href="https://www.mext.go.jp/a_menu/shotou/new-cs/1383986.htm">文部
 
 ---
 
-## EdTechトレンド①：AIが「一人ひとり」の学びを変える
+## トレンド①：AIが「一人ひとり」の学びを変える
 
 *   **AIによる個別最適化学習（アダプティブラーニング）：**
     *   生徒一人ひとりの理解度、苦手、ペースに合わせて、AIが最適な問題や教材を提供
@@ -129,7 +129,7 @@ Source: <a href="https://www.mext.go.jp/a_menu/shotou/new-cs/1383986.htm">文部
 
 ---
 
-## EdTechトレンド②：学びの「場」と「機会」が広がる
+## トレンド②：学びの「場」と「機会」が広がる
 
 *   **オンライン学習プラットフォーム：**
     *   時間や場所を選ばずに学べる。有名講師の授業もアクセス可能に。
@@ -141,7 +141,7 @@ Source: <a href="https://www.mext.go.jp/a_menu/shotou/new-cs/1383986.htm">文部
 
 ---
 
-## EdTechトレンド③：「体験」が学びを深める
+## トレンド③：「体験」が学びを深める
 
 *   **VR/AR（仮想現実/拡張現実）：**
     *   リアルな体験が難しいことを仮想空間でシミュレーション。
@@ -152,11 +152,11 @@ Source: <a href="https://www.mext.go.jp/a_menu/shotou/new-cs/1383986.htm">文部
 
 ---
 
-## EdTechトレンド④：テスト手法が「評価」を変える
+## トレンド④：テスト手法が「評価」を変える
 
 *   **CBT（Computer-Based Testing）：**
     *   コンピューター上で実施する試験。即時採点・結果フィードバックが可能
-    *   大学入学共通テストや英語外部検定試験での導入事例
+    *   一部資格試験やや英語外部検定試験での導入事例
 *   **IRT（Item Response Theory）：**
     *   受験者の能力値や問題の難易度を数値化する理論
     *   より精密な学力測定と公平な評価が可能に
@@ -165,7 +165,7 @@ Source: <a href="https://www.mext.go.jp/a_menu/shotou/new-cs/1383986.htm">文部
 
 ---
 
-## EdTechトレンド⑤：データが学びを「未来」に繋ぐ
+## トレンド⑤：データが学びを「未来」に繋ぐ
 
 *   **eポートフォリオ：**
     *   学びの成果（作品、資格、活動記録など）をデジタルで記録・蓄積
@@ -258,7 +258,7 @@ Source: <a href="https://www.mext.go.jp/a_menu/shotou/new-cs/1383986.htm">文部
 
 ---
 <!-- _class: teal-bg -->
-### 一方、2020年以降の生成AI/LLMの破壊的イノベーションは
+### 一方、2022年以降の生成AI/LLMの破壊的イノベーションは
 ### 世界のあり方を大きく変え得る
 
 ---
@@ -307,7 +307,7 @@ Source: <a href="https://ai-2027.com/">AI 2027</a>
 * 従来では何年もかかっていた業務
 
 
-![bg right 90%](./images/duolingo.png)
+![bg right:40% 90%](./images/duolingo.png)
 
 <div class="source-citation">
 Source: <a href="https://www.theverge.com/news/658968/duolingo-language-courses-ai">theverge.com</a>
@@ -320,7 +320,7 @@ Source: <a href="https://www.theverge.com/news/658968/duolingo-language-courses-
 * メイツによる英文添削AIフィードバックサービス
 * 生徒が入力した英作文に対して、生成AIが即座にフィードバック
 
-![bg right 90%](./images/mates.png)
+![bg right:40% 90%](./images/mates.png)
 
 <div class="source-citation">
 Source: <a href="https://mates-edu.co.jp/news/7769">株式会社メイツ</a>
@@ -334,7 +334,7 @@ Source: <a href="https://mates-edu.co.jp/news/7769">株式会社メイツ</a>
 * 問題の解答を教えるものから、ヒントを提示するもの、類題を生成するものまで活用方法は様々
 
 
-![bg right 80%](./images/studypocket.png)
+![bg right:40% 80%](./images/studypocket.png)
 
 <div class="source-citation">
 Source: <a href="https://studypocket.ai/student">スタディポケット</a>
@@ -447,6 +447,22 @@ Source: <a href="https://studypocket.ai/student">スタディポケット</a>
   * 個別最適学習と、膠着構造への挑戦
   * テクノロジーを活用しつつも、ユーザー価値を大切に
   * 「何を学ぶか」だけでなく「どう学ぶか」の変革
+
+---
+
+## 宣伝
+
+---
+
+![bg 70%](./images/awsstartup.png)
+
+---
+
+## ぜひご参加ください！
+
+https://aws-startup-community.connpass.com/event/354497/
+
+![bg right 90%](./images/qrcode_aws-startup-community.connpass.com.png)
 
 ---
 
