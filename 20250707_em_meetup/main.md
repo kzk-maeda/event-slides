@@ -71,6 +71,20 @@ class: text-center
 
 # でも、ある業務では<br/>生成AIを使わないことにしている
 
+<style>
+.slidev-layout {
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-position: center;
+}
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout p {
+  color: white !important;
+}
+</style>
+
 ---
 layout: center
 class: text-center
@@ -133,6 +147,20 @@ class: text-center
 
 # 生成AIではなぜできないのか？
 
+<style>
+.slidev-layout {
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-position: center;
+}
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout p {
+  color: white !important;
+}
+</style>
+
 ---
 layout: two-cols
 class: flex flex-col
@@ -190,10 +218,45 @@ layout: center
 class: text-center
 ---
 
-# 今どうしているのか？
+# でも、忌避しているのは技術的な問題ではないかも
 
 ---
-layout: two-cols
+layout: center
+---
+
+# "浅い"意思決定
+
+<div style="max-width: 600px; margin: 0 auto;">
+
+![生成AIによって増えてきた"浅い"意思決定](./images/desision.png)
+
+</div>
+
+出典: [生成AIによって増えてきた"浅い"意思決定 - Kazuki Hayakawa](https://note.com/12011991/n/n7c525dbe370c)
+
+---
+layout: center
+class: text-center
+---
+
+# 今どうしているのか？
+
+<style>
+.slidev-layout {
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-position: center;
+}
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout p {
+  color: white !important;
+}
+</style>
+
+---
+layout: two-cols-header
 class: flex flex-col
 ---
 
@@ -244,10 +307,6 @@ class: text-center
 
 ### 他の業務を生成AIで効率化することで、「人間らしい」仕事に時間を使える
 
-<br>
-
-### 効率化で生まれた時間を、人にしかできない仕事に投資
-
 ---
 layout: center
 class: text-center
@@ -255,14 +314,29 @@ class: text-center
 
 # どうしたら生成AIで代替できるか？
 
+<style>
+.slidev-layout {
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-position: center;
+}
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout p {
+  color: white !important;
+}
+</style>
+
 ---
-layout: two-cols
-class: flex flex-col
+layout: default
 ---
 
 # 技術的な進化の方向性
 
-<div class="flex-grow flex items-center">
+<br>
+
+<div class="grid grid-cols-2 gap-8 mt-8">
 <div>
 
 ## 暗黙知の取り出し
@@ -274,11 +348,6 @@ class: flex flex-col
 - 非言語的なコミュニケーション
 
 </div>
-</div>
-
-::right::
-
-<div class="flex-grow flex items-center">
 <div>
 
 ## 学習サイクルの確立
@@ -292,13 +361,26 @@ class: flex flex-col
 </div>
 </div>
 
-
 ---
 layout: center
 class: text-center
 ---
 
 # その先の人間の価値は？
+
+<style>
+.slidev-layout {
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-position: center;
+}
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout p {
+  color: white !important;
+}
+</style>
 
 ---
 layout: center
