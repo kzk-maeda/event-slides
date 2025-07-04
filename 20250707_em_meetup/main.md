@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: ./images/title.jpg
 class: text-center
 info: |
   ## 敢えて生成AIを使わないようにしているマネジメント業務
@@ -12,58 +12,56 @@ title: 敢えて生成AIを使わないようにしているマネジメント�
 mdc: true
 ---
 
-# 敢えて生成AIを使わないマネジメント業務
+# 敢えて生成AIを使わない
+# マネジメント業務
+### もあるよ
+
+<br>
 
 EMゆるミートアップ vol.10  
-〜生成AI時代のマネジメントを探究しよう〜
 
-atama plus株式会社 VPoE / 技術統括
+kzk-maeda
 
 2025.07.07
 
 ---
-layout: intro
+layout: image-left
+image: ./images/profile.png
+class: flex flex-col justify-center
 ---
 
 # 自己紹介
 
-### atama plus株式会社
+<div>
+
+### Kazuki Maeda
+
+atama plus株式会社  
 VPoE / 技術統括
 
-- 組織マネジメント・技術マネジメントが管掌範囲
-- 生成AIアプリケーションの開発
-- OSS活動など行っており、生成AIにはとても好意的
+- 組織マネジメント・技術マネジメントを管掌
+- 生成AI好きです。逆張りではありません。
+
+</div>
 
 ---
 transition: fade-out
+class: flex flex-col
 ---
 
 # 業務の中で生成AIを使わない日はない
 
-<div class="grid grid-cols-2 gap-6 mt-8">
-  <div>
-    <h3>プロダクト開発</h3>
-    <p>Claude Codeで新プロダクトのプロト作成<br>
-    コード生成・レビュー支援</p>
-  </div>
-  
-  <div>
-    <h3>情報管理・分析</h3>
-    <p>MCPでドキュメント検索・作成<br>
-    データ分析の自動化</p>
-  </div>
-  
-  <div>
-    <h3>組織コミュニケーション</h3>
-    <p>組織全体会のサマリ作成<br>
-    1on1の内容整理・振り返り</p>
-  </div>
-  
-  <div>
-    <h3>他組織との連携</h3>
-    <p>人事・コーポレートとの議論前の壁打ち<br>
-    専門性が異なるチームとの議論準備</p>
-  </div>
+<div class="flex-grow flex items-center justify-center">
+<div>
+
+| 分野 | 活用例 |
+| --- | --- |
+| **プロダクト開発** | Claude Codeで新プロダクトのプロト作成<br>コード生成・レビュー支援 |
+| **情報管理・分析** | MCPでドキュメント検索・作成<br>データ分析の自動化 |
+| **組織コミュニケーション** | 組織全体会のサマリ作成<br>1on1の内容整理・振り返り |
+| **他組織との連携** | 人事・コーポレートとの議論前の壁打ち<br>専門性が異なるチームとの議論準備 |
+
+</div>
 </div>
 
 ---
@@ -73,138 +71,242 @@ class: text-center
 
 # でも、ある業務では<br/>生成AIを使わないことにしている
 
-## メンバーの評価期間を締めくくる  
-振り返り面談のための情報収集
-
+---
+layout: center
+class: text-center
 ---
 
-# なぜ使わないのか？
-
-### 一見、生成AIに向いていそうなタスク
-  
-チケット・Pull Request・Slack発言・ドキュメント等から  
-メンバーの成果情報を収集  
-→  
-MCPやRAGを使えば効率的に実現可能
-
-**しかし...**
-
-### 「ポジティブなサプライズ」にこだわっているから
-
----
-
-# ポジティブなサプライズとは？
-
-<div class="grid grid-cols-2 gap-8 mt-8">
-<div>
-
-## 定義
-メンバー自身の振り返りから漏れているが、その期間に行った素晴らしい行動や成果を見つけて「こういう成果もあったよね」と伝えること
-
-## 目的
-- 「ちゃんと見ている」というメッセージ
-- 賞賛によるポジティブな報酬系の活性化
-- 自己認識の拡張
-
-</div>
-<div>
-
-## 必要な要素
-
-### 日常的なコミュニケーション
-何気ない会話や行動の観察
-
-### 細やかな情報収集
-メンバー自身も忘れている成果の発見
-
-### 文脈の深い理解
-表面的でない、真の価値の把握
-
-</div>
-</div>
-
----
-
-# 生成AIでは何が不足するのか？
-
-### 1. Lost in the Middle問題・無関心の谷問題
-メンバーの意識にも残らないような、ポジティブなサプライズの対象となる情報が抜け落ちる可能性  
-*参考: Lost in the Middle (Liu et al., 2023)*
-
-### 2. 暗黙知の欠落
-ツールに残っているのは表面的なテキスト情報のみ。真にポジティブなサプライズを実施するには：
-
-- データの有機的な関係性の理解
-- ツールにデータとして残っていない暗黙的なコンテキスト
-- 組織文化や個人の成長文脈の深い理解
-
----
-
-# 現在の取り組み（泥臭い）
-
-<div class="grid grid-cols-2 gap-6 mt-8">
-  <div>
-    <h3>日常的な観察</h3>
-    <p>「ポジティブなサプライズ」対象になりうる行動を見逃さないよう、普段から目を皿にして行動を観察</p>
-  </div>
-  
-  <div>
-    <h3>賞賛文化の醸成</h3>
-    <p>Win Sessionなど、良い言動を日常的に組織で賞賛する文化をつくり、振り返り時に拾い上げる</p>
-  </div>
-  
-  <div>
-    <h3>定期的な情報収集</h3>
-    <p>レトロボードなど、賞賛系の情報が溜まりやすい場所は評価タイミングで全て目を通す</p>
-  </div>
-  
-  <div>
-    <h3>時間の確保</h3>
-    <p>他の業務を生成AIで効率化することで、こういう「人間らしい」仕事に時間を使える</p>
-  </div>
-</div>
-
----
-
-# どうしたら生成AIで代替できるか？
-
-### 技術的な進化の方向性
-
-<div class="grid grid-cols-2 gap-6 mt-8">
-  <div>
-    <h4>暗黙知の取り出し</h4>
-    <p>オフライン含むMTGでの会話<br>
-    偶発的なコラボレーション<br>
-    非言語的なコミュニケーション</p>
-  </div>
-  
-  <div>
-    <h4>学習サイクルの確立</h4>
-    <p>ポジティブなサプライズの事例収集<br>
-    アノテーションと再学習の軽量化<br>
-    組織文化への適応</p>
-  </div>
-</div>
-
-データとして取り出せない情報も扱えるようになり、  
-ポジティブなサプライズに対する学習サイクルが軽く回せるようになると  
-生成AIで代替できるかもしれない
+# 振り返り面談のための情報収集
 
 ---
 layout: center
 ---
 
+# 一見、生成AIに向いていそうなタスク
+
+<br>
+
+### データソース
+**チケット** • **Pull Request** • **Slack発言** • **ドキュメント**
+
+↓
+
+### 収集
+MCPやRAGでサービスに分散した情報を収集
+
+↓
+
+### 要約・抽出
+ポジティブフィードバックの基を生成
+
+---
+layout: center
+class: text-center
+---
+
+# 個人のマネジメントのこだわりとして
+# 「ポジティブなサプライズ」にこだわっているから
+
+---
+class: flex flex-col
+---
+
+# ポジティブなサプライズとは？
+
+<div class="flex-grow flex items-center justify-center">
+<div class="text-center">
+
+メンバー自身の振り返りから漏れているが、その期間に行った素晴らしい行動や成果を見つけて
+
+**「こういう成果もあったよね」と伝えること**
+
+メンバー自身も忘れている成果の発見から、表面的でない、真の価値の把握
+
+</div>
+</div>
+
+
+---
+layout: center
+class: text-center
+---
+
+# 生成AIではなぜできないのか？
+
+---
+layout: two-cols
+class: flex flex-col
+---
+
+# Lost in the Middle問題
+
+<div class="flex-grow flex items-center">
+<div>
+
+生成AIに多量のコンテキストを渡すと、その中央に位置する情報が抜けやすいという問題
+
+*参考: Lost in the Middle (Liu et al., 2023)*
+
+例えばMCPを用いて多量の会話ログなどを渡して生成AIに情報分析させようとした時に、
+
+**ポジティブサプライズに寄与しうる重要な情報がロストしてしまう可能性**
+
+</div>
+</div>
+
+::right::
+
+<div class="flex h-full items-center justify-center">
+
+![Lost in the Middle](./images/lost-in-the-middle.png)
+
+</div>
+
+---
+layout: image-right
+image: ./images/knowledge-graph.jpg
+class: flex flex-col
+---
+
+# 暗黙知や構造の欠落
+##
+
+<div class="flex-grow flex items-center">
+<div>
+
+SlackやJIRAなどのツールに残っているのは表面的・断片的なテキスト情報のみ
+
+ポジティブサプライズのためには、
+- ログに残らないような対面コミュニケーションの情報
+- 情報間の有機的な繋がり
+
+など、生成AIが知り得ない情報が多く存在し、それらを総合してFBに繋げる必要がある
+
+</div>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# 今どうしているのか？
+
+---
+layout: two-cols
+class: flex flex-col
+---
+
+# 日常的な賞賛文化の醸成
+
+<div class="flex-grow flex items-center">
+<div>
+
+Win Sessionなど、良い言動を日常的に組織で賞賛する文化をつくる
+
+その中で、「ポジティブなサプライズ」対象になりうる行動を見逃さないよう、普段から目を皿にして行動を観察
+
+振り返り時にこれらの情報から拾い上げる
+
+</div>
+</div>
+
+::right::
+
+<div class="flex h-full items-center justify-center">
+
+![Win Session](./images/win-session.png)
+
+</div>
+
+---
+layout: image-right
+image: ./images/retro-board.png
+class: flex flex-col
+---
+
+# 定期的な情報収集
+
+<div class="flex-grow flex items-center">
+<div>
+
+レトロボードなど、賞賛系の情報が溜まりやすい場所は評価タイミングで全て目を通す
+
+一つ一つ丁寧に確認することで、埋もれがちな成果を発見
+
+</div>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+### 他の業務を生成AIで効率化することで、「人間らしい」仕事に時間を使える
+
+<br>
+
+### 効率化で生まれた時間を、人にしかできない仕事に投資
+
+---
+layout: center
+class: text-center
+---
+
+# どうしたら生成AIで代替できるか？
+
+---
+layout: two-cols
+class: flex flex-col
+---
+
+# 技術的な進化の方向性
+
+<div class="flex-grow flex items-center">
+<div>
+
+## 暗黙知の取り出し
+
+今はデータとして取り出せない情報を扱えるようになること
+
+- オフライン含むMTGでの会話
+- 偶発的なコラボレーション
+- 非言語的なコミュニケーション
+
+</div>
+</div>
+
+::right::
+
+<div class="flex-grow flex items-center">
+<div>
+
+## 学習サイクルの確立
+
+「ポジティブなサプライズ」に対して生成AIを学習させるサイクル
+
+- ポジティブなサプライズの事例収集
+- アノテーションと再学習の軽量化
+- 組織文化への適応
+
+</div>
+</div>
+
+
+---
+layout: center
+class: text-center
+---
+
 # その先の人間の価値は？
 
-## わからない
+---
+layout: center
+class: text-center
+---
 
-でも、その世界の中でも  
-人と人が対峙することでしか  
-出せない価値を探していく  
-必要があると思う
-
-生成AIと人間の共創による  
-新しいマネジメントの形を模索中
+# 生成AIと人間の共創による新しいマネジメントの形を
+# 一緒に考えていきましょう
 
 ---
 layout: center
@@ -212,9 +314,3 @@ class: text-center
 ---
 
 # ありがとうございました
-
-生成AI時代だからこそ  
-人間にしかできないマネジメントを探究していきたい
-
-EMゆるミートアップ vol.10  
-〜生成AI時代のマネジメントを探究しよう〜
