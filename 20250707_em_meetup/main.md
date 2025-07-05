@@ -98,20 +98,43 @@ layout: center
 
 # 一見、生成AIに向いていそうなタスク
 
-<br>
-
-### データソース
-**チケット** • **Pull Request** • **Slack発言** • **ドキュメント**
-
-↓
-
-### 収集
-MCPやRAGでサービスに分散した情報を収集
-
-↓
-
-### 要約・抽出
-ポジティブフィードバックの基を生成
+```mermaid {theme: 'default', scale: 0.8}
+graph LR
+    subgraph データソース
+        A["Slack"]
+        B["チケット"]
+        C["Pull Request"]
+        D["ドキュメント"]
+    end
+    
+    A -.-> E
+    B -.-> E
+    C -.-> E
+    D -.-> E
+    
+    subgraph 生成AIタスク
+        E["MCPやRAGで収集<br/>情報の統合"]
+        E ==> F["要約・抽出"]
+    end
+    
+    F ==> G["ポジティブフィードバック<br/>の基"]
+    
+    style A fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    style B fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    style C fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    style D fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    
+    style E fill:#e8eaf6,stroke:#5e35b1,stroke-width:3px,color:#311b92
+    style F fill:#e8eaf6,stroke:#5e35b1,stroke-width:3px,color:#311b92
+    style G fill:#fff3e0,stroke:#f57c00,stroke-width:3px,color:#e65100
+    
+    style データソース fill:#ffffff,stroke:#1976d2,stroke-width:2px,stroke-dasharray: 10 5,rx:15,ry:15,color:#0d47a1
+    style 生成AIタスク fill:#ffffff,stroke:#5e35b1,stroke-width:2px,stroke-dasharray: 10 5,rx:15,ry:15,color:#311b92
+    
+    linkStyle 0,1,2,3 stroke:#1976d2,stroke-width:2px,fill:none
+    linkStyle 4 stroke:#5e35b1,stroke-width:3px,fill:none
+    linkStyle 5 stroke:#f57c00,stroke-width:3px,fill:none
+```
 
 ---
 layout: center
@@ -305,7 +328,10 @@ layout: center
 class: text-center
 ---
 
-### 他の業務を生成AIで効率化することで、「人間らしい」仕事に時間を使える
+### 他の業務を生成AIで効率化することで、
+<br/>
+
+### 「人間らしい」仕事に時間を使える
 
 ---
 layout: center
@@ -337,7 +363,7 @@ layout: default
 <br>
 
 <div class="grid grid-cols-2 gap-8 mt-8">
-<div>
+<div v-click="1">
 
 ## 暗黙知の取り出し
 
@@ -348,7 +374,7 @@ layout: default
 - 非言語的なコミュニケーション
 
 </div>
-<div>
+<div v-click="2">
 
 ## 学習サイクルの確立
 
@@ -391,8 +417,6 @@ class: text-center
 # 一緒に考えていきましょう
 
 ---
-layout: center
-class: text-center
+layout: image
+image: ./images/last_slide.png
 ---
-
-# ありがとうございました
