@@ -5,8 +5,6 @@ class: text-center
 info: |
   ## 敢えて生成AIを使わないようにしているマネジメント業務
   EMゆるミートアップ vol.10 〜生成AI時代のマネジメントを探究しよう〜
-  
-  5分LT by atama plus株式会社 VPoE / 技術統括
 transition: slide-left
 title: 敢えて生成AIを使わないようにしているマネジメント業務
 mdc: true
@@ -59,7 +57,7 @@ class: flex flex-col
 | **プロダクト開発** | Claude Codeで新プロダクトのプロト作成<br>コード生成・レビュー支援 |
 | **情報管理・分析** | MCPでドキュメント検索・作成<br>データ分析の自動化 |
 | **組織コミュニケーション** | 組織全体会のサマリ作成<br>1on1の内容整理・振り返り |
-| **他組織との連携** | 人事・コーポレートとの議論前の壁打ち<br>専門性が異なるチームとの議論準備 |
+| **他組織との連携** | 人事・コーポレートとの議論前の壁打ちなど<br>専門性が異なるチームとの議論準備 |
 
 </div>
 </div>
@@ -69,21 +67,11 @@ layout: center
 class: text-center
 ---
 
+<DoorSlide>
+
 # でも、ある業務では<br/>生成AIを使わないことにしている
 
-<style>
-.slidev-layout {
-  background-image: url('./images/background.png');
-  background-size: cover;
-  background-position: center;
-}
-.slidev-layout h1,
-.slidev-layout h2,
-.slidev-layout h3,
-.slidev-layout p {
-  color: white !important;
-}
-</style>
+</DoorSlide>
 
 ---
 layout: center
@@ -153,11 +141,11 @@ class: flex flex-col
 <div class="flex-grow flex items-center justify-center">
 <div class="text-center">
 
-メンバー自身の振り返りから漏れているが、その期間に行った素晴らしい行動や成果を見つけて
+メンバー自身の振り返りから漏れている素晴らしい行動や成果を見つけて
 
 **「こういう成果もあったよね」と伝えること**
 
-メンバー自身も忘れている成果の発見から、表面的でない、真の価値の把握
+<div v-click>メンバー自身も忘れている成果の発見から、表面的でない、真の価値の把握</div>
 
 </div>
 </div>
@@ -168,21 +156,11 @@ layout: center
 class: text-center
 ---
 
+<DoorSlide>
+
 # 生成AIではなぜできないのか？
 
-<style>
-.slidev-layout {
-  background-image: url('./images/background.png');
-  background-size: cover;
-  background-position: center;
-}
-.slidev-layout h1,
-.slidev-layout h2,
-.slidev-layout h3,
-.slidev-layout p {
-  color: white !important;
-}
-</style>
+</DoorSlide>
 
 ---
 layout: two-cols
@@ -262,21 +240,11 @@ layout: center
 class: text-center
 ---
 
+<DoorSlide>
+
 # 今どうしているのか？
 
-<style>
-.slidev-layout {
-  background-image: url('./images/background.png');
-  background-size: cover;
-  background-position: center;
-}
-.slidev-layout h1,
-.slidev-layout h2,
-.slidev-layout h3,
-.slidev-layout p {
-  color: white !important;
-}
-</style>
+</DoorSlide>
 
 ---
 layout: two-cols-header
@@ -338,21 +306,11 @@ layout: center
 class: text-center
 ---
 
+<DoorSlide>
+
 # どうしたら生成AIで代替できるか？
 
-<style>
-.slidev-layout {
-  background-image: url('./images/background.png');
-  background-size: cover;
-  background-position: center;
-}
-.slidev-layout h1,
-.slidev-layout h2,
-.slidev-layout h3,
-.slidev-layout p {
-  color: white !important;
-}
-</style>
+</DoorSlide>
 
 ---
 layout: default
@@ -392,21 +350,11 @@ layout: center
 class: text-center
 ---
 
+<DoorSlide>
+
 # その先の人間の価値は？
 
-<style>
-.slidev-layout {
-  background-image: url('./images/background.png');
-  background-size: cover;
-  background-position: center;
-}
-.slidev-layout h1,
-.slidev-layout h2,
-.slidev-layout h3,
-.slidev-layout p {
-  color: white !important;
-}
-</style>
+</DoorSlide>
 
 ---
 layout: center

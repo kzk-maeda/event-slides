@@ -176,6 +176,115 @@ graph LR
    - グレー背景は避け、白または薄い色を使用
    - 矢印の太さ（stroke-width）を調整して重要度を表現
 
+## Vueコンポーネントの活用
+
+### コンポーネントの基本的な使い方
+
+1. **ディレクトリ構造**
+   ```
+   プロジェクトルート/
+   ├── main.md
+   ├── images/
+   └── components/
+       └── DoorSlide.vue
+   ```
+
+2. **コンポーネントの作成**
+   - `components/`ディレクトリを作成
+   - Vueファイル（.vue）として実装
+   - Slidevが自動的にコンポーネントを認識・インポート
+
+3. **スライド内での使用**
+   - インポート不要で直接使用可能
+   - コンポーネント名をタグとして記述
+   - スロットを使用してコンテンツを挿入
+
+### 扉スライドコンポーネントの実装例
+全画面背景色を持つスライドは、`position: fixed`を使用することで実現可能です。
+
+```vue
+<!-- components/DoorSlide.vue -->
+<template>
+  <div class="door-slide-wrapper">
+    <div class="door-slide-content">
+      <slot></slot>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.door-slide-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2F95AA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.door-slide-content {
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+.door-slide-content :deep(h1),
+.door-slide-content :deep(h2),
+.door-slide-content :deep(h3),
+.door-slide-content :deep(p) {
+  color: white !important;
+}
+</style>
+```
+
+### 使用方法
+```markdown
+---
+layout: center
+class: text-center
+---
+
+<DoorSlide>
+
+# タイトル
+
+</DoorSlide>
+```
+
+### ポイント
+- `position: fixed`で画面全体をカバー
+- `:deep()`セレクタでスロット内の要素にスタイルを適用
+- 背景色と文字色を統一的に管理
+
+### 扉スライドの要件
+- 背景色: #2F95AA（青緑色）
+- 文字色: 白色
+- 画像は使用せず、単色背景で実装
+
+### メリット
+- 5つの扉スライドで共通のスタイルを一元管理
+- 背景色や文字色の変更が1箇所の修正で完了
+- 画像ファイルへの依存がなく、パフォーマンスも向上
+
+### コンポーネント利用時の注意点
+
+1. **スライド全体への影響**
+   - コンポーネント内から`.slidev-layout`への直接的なスタイル適用は困難
+   - `position: fixed`などの工夫が必要
+
+2. **スタイルのスコープ**
+   - `<style scoped>`を使用してスタイルの影響範囲を制限
+   - `:deep()`セレクタでスロット内の要素にスタイルを適用
+
+3. **DRY原則の実現**
+   - 繰り返し使用するパターンをコンポーネント化
+   - メンテナンス性の向上
+   - 一貫性のあるデザインの維持
+
 ## 参考リンク
 - [Slidev公式ドキュメント](https://sli.dev)
 - [Slidevレイアウト一覧](https://sli.dev/builtin/layouts.html)
+- [Slidevコンポーネント](https://sli.dev/guide/component)
