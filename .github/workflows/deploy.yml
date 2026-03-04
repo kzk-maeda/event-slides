@@ -59,6 +59,7 @@ jobs:
             elif [ -d "$dir/components" ] || grep -qm1 "^theme:" "$mdfile" 2>/dev/null; then
               echo "=== Building Slidev: $dir ==="
               npx slidev build "$mdfile" --base "/$REPO_NAME/$dir/" --out "dist/$dir"
+              [ -d "$dir/images" ] && cp -r "$dir/images" "dist/$dir/"
 
             else
               echo "Skipping $dir (unrecognized type)"
