@@ -58,8 +58,9 @@ jobs:
             # Slidev: has components/ directory or "theme:" in frontmatter
             elif [ -d "$dir/components" ] || grep -qm1 "^theme:" "$mdfile" 2>/dev/null; then
               echo "=== Building Slidev: $dir ==="
-              npx slidev build "$mdfile" --base "/$REPO_NAME/$dir/" --out "$(pwd)/dist/$dir"
-              [ -d "$dir/images" ] && cp -r "$dir/images" "$(pwd)/dist/$dir/"
+              OUTDIR="$(pwd)/dist/$dir"
+              (cd "$dir" && npx slidev build "$(basename "$mdfile")" --base "/$REPO_NAME/$dir/" --out "$OUTDIR")
+              [ -d "$dir/images" ] && cp -r "$dir/images" "$OUTDIR/"
             else
               echo "Skipping $dir (unrecognized type)"
             fi
