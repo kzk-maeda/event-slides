@@ -1,0 +1,66 @@
+<mxfile host="65bd71144e">
+    <diagram id="W7wfcg9Cd69-2WD9zEB9" name="Page-1">
+        <mxGraphModel dx="725" dy="882" grid="0" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=5;shape=flexArrow;fillColor=#00829B;strokeColor=#00829B;" parent="1" source="14" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="技術投資を抑制" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00829B;strokeWidth=5;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="39" y="207" width="248" height="108" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=flexArrow;fillColor=#00829B;strokeColor=#00829B;strokeWidth=4;" parent="1" source="16" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="競争力の低下" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00829B;strokeWidth=5;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="539" y="207.5" width="249" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=4;shape=flexArrow;fillColor=#00829B;strokeColor=#00829B;" parent="1" source="18" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="開発速度・品質の低下&lt;div&gt;価値創出機会の喪失&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00829B;strokeWidth=5;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="291" y="45" width="248" height="108" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#00829B;strokeColor=#00829B;strokeWidth=5;" parent="1" source="19" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="営業CFの悪化" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F07813;strokeWidth=6;fontStyle=1;fontSize=24;fontColor=#F07813;" parent="1" vertex="1">
+                    <mxGeometry x="289" y="369" width="248" height="108" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="XJ1dmBu4FnwG2Wh6AALl" name="Page-2">
+        <mxGraphModel dx="725" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="vYgdmKFsKx-d0Od7sHZB-1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=5;shape=flexArrow;fillColor=#00829B;strokeColor=#00829B;" parent="1" source="vYgdmKFsKx-d0Od7sHZB-2" target="vYgdmKFsKx-d0Od7sHZB-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYgdmKFsKx-d0Od7sHZB-2" value="技術投資を&lt;font style=&quot;color: rgb(240, 120, 19);&quot;&gt;維持&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00829B;strokeWidth=5;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="39" y="207" width="248" height="108" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYgdmKFsKx-d0Od7sHZB-3" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=flexArrow;fillColor=#00829B;strokeColor=#00829B;strokeWidth=4;" parent="1" source="vYgdmKFsKx-d0Od7sHZB-4" target="vYgdmKFsKx-d0Od7sHZB-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYgdmKFsKx-d0Od7sHZB-4" value="競争力の&lt;font style=&quot;color: rgb(240, 120, 19);&quot;&gt;向上&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00829B;strokeWidth=5;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="539" y="207.5" width="249" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYgdmKFsKx-d0Od7sHZB-5" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=4;shape=flexArrow;fillColor=#00829B;strokeColor=#00829B;" parent="1" source="vYgdmKFsKx-d0Od7sHZB-6" target="vYgdmKFsKx-d0Od7sHZB-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYgdmKFsKx-d0Od7sHZB-6" value="開発速度・品質の&lt;font style=&quot;color: rgb(240, 120, 19);&quot;&gt;向上&lt;/font&gt;&lt;div&gt;価値創出機会の&lt;font style=&quot;color: rgb(240, 120, 19);&quot;&gt;創出&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00829B;strokeWidth=5;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="291" y="45" width="248" height="108" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYgdmKFsKx-d0Od7sHZB-7" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#00829B;strokeColor=#00829B;strokeWidth=5;" parent="1" source="vYgdmKFsKx-d0Od7sHZB-8" target="vYgdmKFsKx-d0Od7sHZB-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vYgdmKFsKx-d0Od7sHZB-8" value="営業CFの改善" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F07813;strokeWidth=6;fontStyle=1;fontSize=24;fontColor=#F07813;" parent="1" vertex="1">
+                    <mxGeometry x="289" y="369" width="248" height="108" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
