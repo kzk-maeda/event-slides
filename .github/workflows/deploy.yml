@@ -60,7 +60,6 @@ jobs:
               echo "=== Building Slidev: $dir ==="
               npx slidev build "$mdfile" --base "/$REPO_NAME/$dir/" --out "$(pwd)/dist/$dir"
               [ -d "$dir/images" ] && cp -r "$dir/images" "$(pwd)/dist/$dir/"
-
             else
               echo "Skipping $dir (unrecognized type)"
             fi
