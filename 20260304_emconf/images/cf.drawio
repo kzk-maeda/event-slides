@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="W7wfcg9Cd69-2WD9zEB9" name="Page-1">
+        <mxGraphModel dx="955" dy="1163" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="36" y="249" as="sourcePoint"/>
+                        <mxPoint x="792" y="249" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=80.625;endSize=32.02608695652174;width=146.95652173913044;fillColor=light-dark(#1094aa, #ededed);strokeColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="414.00000000000006" y="249" as="sourcePoint"/>
+                        <mxPoint x="414.00000000000006" y="72" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="営業CF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="94" y="204" width="99" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=84.6875;endSize=32.666666666666664;width=149.33333333333334;fillColor=light-dark(#F07813,#EDEDED);strokeColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="684.8299999999999" y="249" as="sourcePoint"/>
+                        <mxPoint x="684.8299999999999" y="432" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=80;endSize=33;width=142.66666666666666;fillColor=light-dark(#F07813,#EDEDED);strokeColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="142.83000000000004" y="249" as="sourcePoint"/>
+                        <mxPoint x="142.83000000000004" y="433" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="投資CF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="364" y="249" width="99" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="財務CF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="636" y="204" width="99" height="45" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
