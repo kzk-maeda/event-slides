@@ -38,23 +38,18 @@ jobs:
           mkdir -p dist
           REPO_NAME="${GITHUB_REPOSITORY#*/}"
 
-          for dir in */; do
+          for dir in [0-9]*/; do
             dir="${dir%/}"
-
-            # Skip non-slide directories
-            case "$dir" in
-              node_modules|themes|dist|.github) continue ;;
-            esac
 
             # Find main markdown file
             mdfile=""
-            for candidate in main.md index.md slidev.md; do
+            for candidate in main.md index.md slidev.md slide.md; do
               [ -f "$dir/$candidate" ] && mdfile="$dir/$candidate" && break
             done
             [ -z "$mdfile" ] && echo "No markdown in $dir, skipping" && continue
 
-            # Marp: frontmatter has "marp: true"
-            if grep -qm1 "^marp:.*true" "$mdfile" 2>/dev/null; then
+            # Marp: frontmatter has "marp: true" (allow spaces around colon)
+            if grep -qm1 "^marp\s*:.*true" "$mdfile" 2>/dev/null; then
               echo "=== Building Marp: $dir ==="
               mkdir -p "dist/$dir"
               npx marp "$mdfile" --html -o "dist/$dir/index.html"
