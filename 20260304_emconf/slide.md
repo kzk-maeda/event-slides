@@ -99,8 +99,8 @@ class: split-card-slide
 # 理想と現実のギャップ
 
 <div class="grid grid-cols-2 gap-4 mt-4">
-<div>
 
+<div>
 <div class="split-card split-card-ideal">
 
 ### 理想
@@ -111,8 +111,9 @@ CEO/CFOから明確な方針が示される
 - 「来期はコスト削減フェーズなので、既存システムの効率化に集中を」
 
 </div>
-<div>
+</div>
 
+<div>
 <v-click>
 
 <div class="split-card split-card-reality">
@@ -128,6 +129,7 @@ CEO/CFOから明確な方針が示される
 
 </v-click>
 </div>
+
 </div>
 
 ---

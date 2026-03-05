@@ -194,7 +194,7 @@ p .accent {
 
 .slidev-layout.title-slide h1 {
   position: relative;
-  font-size: 1.95rem;
+  font-size: 1.95rem !important;
   font-weight: 700;
   line-height: 1.45;
   letter-spacing: 0.04em;
