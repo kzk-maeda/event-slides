@@ -104,8 +104,8 @@
 }
 
 .accent {
-  color: var(--atama-primary);
-  font-weight: 700;
+  color: var(--atama-primary) !important;
+  font-weight: 700 !important;
 }
 
 .slidev-layout:not(.title-slide):not(.door-slide)::before {
@@ -602,6 +602,29 @@
   .cf-card {
     min-height: 0;
     text-align: left;
+  }
+
+  /* two-cols-header layout responsive */
+  .slidev-layout.two-cols-header .grid,
+  .slidev-layout.two-cols-header .slidev-layout,
+  .slidev-layout[class*="two-cols"] {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .slidev-layout.two-cols-header .left,
+  .slidev-layout.two-cols-header .right,
+  .slidev-layout.two-cols-header .col-left,
+  .slidev-layout.two-cols-header .col-right {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .split-card-slide .left,
+  .split-card-slide .right,
+  .col-left.split-card-slide,
+  .col-right.split-card-slide {
+    transform: none !important;
   }
 }
 
