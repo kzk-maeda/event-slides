@@ -92,14 +92,15 @@ class: text-center
 考え方のフレームと実体験の両面からお話しします
 
 ---
-layout: two-cols-header
+layout: default
 class: split-card-slide
 ---
 
 # 理想と現実のギャップ
 
-::left::
+<div class="grid grid-cols-2 gap-4 mt-4">
 
+<div>
 <div class="split-card split-card-ideal">
 
 ### 理想
@@ -110,9 +111,9 @@ CEO/CFOから明確な方針が示される
 - 「来期はコスト削減フェーズなので、既存システムの効率化に集中を」
 
 </div>
+</div>
 
-::right::
-
+<div>
 <v-click>
 
 <div class="split-card split-card-reality">
@@ -127,6 +128,9 @@ CEO/CFOから明確な方針が示される
 </div>
 
 </v-click>
+</div>
+
+</div>
 
 ---
 class: agenda-slide
