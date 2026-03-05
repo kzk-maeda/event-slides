@@ -108,6 +108,18 @@
   font-weight: 700 !important;
 }
 
+/* Ensure .accent works in tables and headings */
+td .accent,
+th .accent,
+h1 .accent,
+h2 .accent,
+h3 .accent,
+h4 .accent,
+p .accent {
+  color: var(--atama-primary) !important;
+  font-weight: 700 !important;
+}
+
 .slidev-layout:not(.title-slide):not(.door-slide)::before {
   content: "";
   position: absolute;
@@ -182,7 +194,7 @@
 
 .slidev-layout.title-slide h1 {
   position: relative;
-  font-size: 2.45rem;
+  font-size: 1.95rem;
   font-weight: 700;
   line-height: 1.45;
   letter-spacing: 0.04em;
@@ -464,7 +476,8 @@
 .split-card-slide .left,
 .split-card-slide .right,
 .col-left.split-card-slide,
-.col-right.split-card-slide {
+.col-right.split-card-slide,
+.split-card-slide .grid > div {
   display: flex;
   align-items: flex-start;
   justify-content: center;
